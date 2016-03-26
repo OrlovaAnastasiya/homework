@@ -1,13 +1,8 @@
 * {
   box-sizing: border-box;
-  position: relative;
 }
 body {
   font-family: Arial, sans-serif;
-  Position: relative;
-  width: 200px;
-  height: 500px;
-  margin-top: 5px;
 }
 .container {
   display: flex;
@@ -32,7 +27,11 @@ body {
   display: inline-block;
 }
 .thumbnail {
+  height: 300px;
   width: 300px;
+
+  background-position: center;
+  background-size: cover;
 }
 .news2 {
   width: 250px;
@@ -47,7 +46,6 @@ h1 {
   font-size: 20px;
 }
 strong {
-  color: black;
   font-family: serif;
   font-style: italic;
   font-weight: lighter;
